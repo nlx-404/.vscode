@@ -1,0 +1,63 @@
+{
+  "window.zoomLevel": 2,
+  "vsicons.presets.hideExplorerArrows": true,
+  "scm.diffDecorations": "none",
+  "editor.renderWhitespace": "none",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Dracula Theme",
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false,
+  "cmake.showOptionsMovedNotification": false,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "workbench.iconTheme": "vscode-icons",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["j"],
+      "after": ["h"]
+    },
+    {
+      "before": ["k"],
+      "after": ["l"]
+    },
+    {
+      "before": ["h"],
+      "after": ["k"]
+    },
+    {
+      "before": ["l"],
+      "after": ["j"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false
+  },
+
+  "vim.leader": ",",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", ";"],
+      "commands": ["workbench.view.explorer"]
+    }
+  ],
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 13,
+  "workbench.sideBar.location": "right",
+  "window.commandCenter": false
+}
