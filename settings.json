@@ -9,6 +9,7 @@
     "statusBar.background": "#21222B"
   },
   "window.zoomLevel": 2,
+  "editor.stickyScroll.enabled": false,
   "vsicons.presets.hideExplorerArrows": true,
   "scm.diffDecorations": "none",
   "editor.guides.bracketPairs": false,
