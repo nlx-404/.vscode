@@ -1,7 +1,20 @@
 {
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#282A35",
+    "titleBar.inactiveBackground": "#282A35",
+    "editorGroupHeader.tabsBackground": "#16171C",
+    "editorGroupHeader.noTabsBackground": "#16171C",
+    "tab.inactiveBackground": "#1E1F28",
+    "editorCursor.foreground": "#FFFFFF",
+    "statusBar.background": "#21222B"
+  },
   "window.zoomLevel": 2,
   "vsicons.presets.hideExplorerArrows": true,
   "scm.diffDecorations": "none",
+  "editor.guides.bracketPairs": false,
+  "git.decorations.enabled": false,
+  "git.enableMiniMap": false,
+  "editor.guides.indentation": false,
   "editor.renderWhitespace": "none",
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -17,7 +30,6 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Dracula Theme",
   "editor.minimap.enabled": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
@@ -57,7 +69,22 @@
     }
   ],
   "files.autoSave": "afterDelay",
-  "editor.fontSize": 13,
+  "editor.fontSize": 16,
   "workbench.sideBar.location": "right",
-  "window.commandCenter": false
+  "window.commandCenter": false,
+  "workbench.activityBar.location": "hidden",
+  "codeium.enableCodeLens": false,
+  "editor.accessibilitySupport": "off",
+  "workbench.startupEditor": "none",
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "Dracula Theme",
+  "editor.scrollbar.verticalScrollbarSize": 6,
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.occurrencesHighlight": "off",
+  "editor.renderLineHighlight": "none",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.matchBrackets": "never",
+  "editor.glyphMargin": false,
+  "vim.statusBarColorControl": false
 }
