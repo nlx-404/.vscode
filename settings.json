@@ -87,5 +87,7 @@
   "editor.scrollbar.horizontal": "hidden",
   "editor.matchBrackets": "never",
   "editor.glyphMargin": false,
-  "vim.statusBarColorControl": false
+  "vim.statusBarColorControl": false,
+  "terminal.integrated.tabs.enabled": false,
+  "workbench.panel.showLabels": false
 }
