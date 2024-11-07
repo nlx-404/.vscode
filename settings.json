@@ -37,7 +37,6 @@
   "explorer.confirmDelete": false,
   "cmake.showOptionsMovedNotification": false,
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "workbench.iconTheme": "vscode-icons",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["j"],
@@ -89,5 +88,10 @@
   "editor.glyphMargin": false,
   "vim.statusBarColorControl": false,
   "terminal.integrated.tabs.enabled": false,
-  "workbench.panel.showLabels": false
+  "workbench.panel.showLabels": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.files.color": "#50fa7b",
+  "material-icon-theme.folders.color": "#bd93f9",
+  "material-icon-theme.hidesExplorerArrows": true,
+
 }
