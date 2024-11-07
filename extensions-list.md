@@ -13,5 +13,5 @@ ritwickdey.liveserver
 twxs.cmake
 usernamehw.errorlens
 vintharas.learn-vim
-vscode-icons-team.vscode-icons
+material-icon-theme
 vscodevim.vim
