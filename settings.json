@@ -104,6 +104,10 @@
   "material-icon-theme.files.color": "#50fa7b",
   "material-icon-theme.folders.color": "#bd93f9",
   "material-icon-theme.hidesExplorerArrows": true,
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.panel.showLabels": false
+  "workbench.iconTheme": "helium-icon-theme",
+  "workbench.panel.showLabels": false,
+  "helium-icon-theme.showReloadMessage": false,
+  "helium-icon-theme.folders.color": "#bd93f9",
+  "helium-icon-theme.hidesExplorerArrows": true,
+  "helium-icon-theme.folders.theme": "classic",
 }
