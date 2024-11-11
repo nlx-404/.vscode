@@ -38,31 +38,31 @@
   "explorer.confirmDelete": false,
   "cmake.showOptionsMovedNotification": false,
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["j"],
-      "after": ["h"]
-    },
-    {
-      "before": ["k"],
-      "after": ["l"]
-    },
-    {
-      "before": ["h"],
-      "after": ["k"]
-    },
-    {
-      "before": ["l"],
-      "after": ["j"]
-    }
-  ],
+  // "vim.normalModeKeyBindingsNonRecursive": [
+  //   {
+  //     "before": ["j"],
+  //     "after": ["h"]
+  //   },
+  //   {
+  //     "before": ["k"],
+  //     "after": ["l"]
+  //   },
+  //   {
+  //     "before": ["h"],
+  //     "after": ["k"]
+  //   },
+  //   {
+  //     "before": ["l"],
+  //     "after": ["j"]
+  //   }
+  // ],
   "vim.handleKeys": {
     "<C-d>": true,
     "<C-s>": false,
     "<C-z>": false
   },
 
-  "vim.leader": ",",
+  "vim.leader": " ",
   "vim.normalModeKeyBindings": [
     {
       "before": ["<leader>", "e"],
@@ -110,4 +110,5 @@
   "helium-icon-theme.folders.color": "#bd93f9",
   "helium-icon-theme.hidesExplorerArrows": true,
   "helium-icon-theme.folders.theme": "classic",
+  "editor.smoothScrolling": true
 }
