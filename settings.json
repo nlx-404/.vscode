@@ -77,8 +77,32 @@
       "commands": ["workbench.action.previousEditor"]
     },
     {
-      "before": ["<leader>", "x"],
+      "before": ["<leader>", "w"],
       "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<Leader>"],
+      "commands": [":tabnew", "t"]
+    },
+    {
+      "before": ["leader", "s"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<C-h>"],
+      "after": ["<C-w>", "h"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<C-w>", "j"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<C-w>", "k"]
+    },
+    {
+      "before": ["<C-l>"],
+      "after": ["<C-w>", "l"]
     }
   ],
   "files.autoSave": "afterDelay",
