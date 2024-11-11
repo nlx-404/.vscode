@@ -110,5 +110,6 @@
   "helium-icon-theme.folders.color": "#bd93f9",
   "helium-icon-theme.hidesExplorerArrows": true,
   "helium-icon-theme.folders.theme": "classic",
-  "editor.smoothScrolling": true
+  "editor.smoothScrolling": true,
+  "vim.smartRelativeLine": true
 }
