@@ -135,5 +135,6 @@
   "helium-icon-theme.hidesExplorerArrows": true,
   "helium-icon-theme.folders.theme": "classic",
   "editor.smoothScrolling": true,
-  "vim.smartRelativeLine": true
+  "vim.smartRelativeLine": true,
+  "vim.mouseSelectionGoesIntoVisualMode": false
 }
