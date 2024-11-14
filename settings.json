@@ -89,6 +89,18 @@
       "commands": ["workbench.action.files.save"]
     },
     {
+      "before": ["<leader>", "r"],
+      "commands": [":redo"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["extension.liveServer.goOnline"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "commands": ["extension.liveServer.goOffline"]
+    },
+    {
       "before": ["<C-h>"],
       "after": ["<C-w>", "h"]
     },
