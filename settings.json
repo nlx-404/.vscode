@@ -18,8 +18,6 @@
   "git.enableMiniMap": false,
   "editor.guides.indentation": false,
   "editor.renderWhitespace": "none",
-  "editor.cursorBlinking": "expand",
-  "editor.cursorSmoothCaretAnimation": "on",
   "code-runner.runInTerminal": true,
   "code-runner.clearPreviousOutput": true,
   "code-runner.showExecutionMessage": false,
