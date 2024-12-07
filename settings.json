@@ -115,6 +115,14 @@
     {
       "before": ["<C-l>"],
       "after": ["<C-w>", "l"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": ["workbench.action.splitEditorDown"]
+    },
+    {
+      "before": ["<leader>", "v"],
+      "commands": ["workbench.action.splitEditorRight"]
     }
   ],
   "files.autoSave": "afterDelay",
@@ -135,7 +143,6 @@
   "editor.scrollbar.horizontal": "hidden",
   "editor.matchBrackets": "never",
   "editor.glyphMargin": false,
-  "vim.statusBarColorControl": false,
   "terminal.integrated.tabs.enabled": false,
   "material-icon-theme.files.color": "#50fa7b",
   "material-icon-theme.folders.color": "#bd93f9",
@@ -148,5 +155,12 @@
   "helium-icon-theme.folders.theme": "classic",
   "editor.smoothScrolling": true,
   "vim.smartRelativeLine": true,
-  "vim.mouseSelectionGoesIntoVisualMode": false
+  "vim.statusBarColorControl": false,
+  "vim.mouseSelectionGoesIntoVisualMode": false,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "codeium.enableCommandSideHintEducation": false,
+  "codeium.enableInComments": false,
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, \"Hack Nerd Font Mono\""
 }
