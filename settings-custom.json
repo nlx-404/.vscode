@@ -1,0 +1,169 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#282A35",
+    "titleBar.inactiveBackground": "#282A35",
+    "editorGroupHeader.tabsBackground": "#16171C",
+    "editorGroupHeader.noTabsBackground": "#282A35",
+    "tab.inactiveBackground": "#1E1F28",
+    "editorCursor.foreground": "#FFFFFF",
+    "statusBar.background": "#21222B"
+  },
+  "window.zoomLevel": 1,
+  "workbench.editor.showTabs": "single",
+  "editor.stickyScroll.enabled": false,
+  "vsicons.presets.hideExplorerArrows": true,
+  "scm.diffDecorations": "none",
+  "editor.guides.bracketPairs": false,
+  "git.decorations.enabled": false,
+  "git.enableMiniMap": false,
+  "editor.guides.indentation": false,
+  "editor.renderWhitespace": "none",
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false,
+  "cmake.showOptionsMovedNotification": false,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  // "vim.normalModeKeyBindingsNonRecursive": [
+  //   {
+  //     "before": ["j"],
+  //     "after": ["h"]
+  //   },
+  //   {
+  //     "before": ["k"],
+  //     "after": ["l"]
+  //   },
+  //   {
+  //     "before": ["h"],
+  //     "after": ["k"]
+  //   },
+  //   {
+  //     "before": ["l"],
+  //     "after": ["j"]
+  //   }
+  // ],
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false
+  },
+
+  "vim.leader": " ",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "n"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<leader>", "p"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<Leader>"],
+      "commands": [":tabnew", "t"]
+    },
+    {
+      "before": ["leader", "s"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<leader>", "r"],
+      "commands": [":redo"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["extension.liveServer.goOnline"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "commands": ["extension.liveServer.goOffline"]
+    },
+    {
+      "before": ["<C-h>"],
+      "after": ["<C-w>", "h"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<C-w>", "j"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<C-w>", "k"]
+    },
+    {
+      "before": ["<C-l>"],
+      "after": ["<C-w>", "l"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": ["workbench.action.splitEditorDown"]
+    },
+    {
+      "before": ["<leader>", "v"],
+      "commands": ["workbench.action.splitEditorRight"]
+    }
+  ],
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 14,
+  "workbench.sideBar.location": "right",
+  "window.commandCenter": false,
+  "workbench.activityBar.location": "hidden",
+  "codeium.enableCodeLens": false,
+  "editor.accessibilitySupport": "off",
+  "workbench.startupEditor": "none",
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "Dracula Theme",
+  "editor.scrollbar.verticalScrollbarSize": 6,
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.occurrencesHighlight": "off",
+  "editor.renderLineHighlight": "none",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.matchBrackets": "never",
+  "editor.glyphMargin": false,
+  "terminal.integrated.tabs.enabled": false,
+  "material-icon-theme.files.color": "#50fa7b",
+  "material-icon-theme.folders.color": "#bd93f9",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.iconTheme": "helium-icon-theme",
+  "workbench.panel.showLabels": false,
+  "helium-icon-theme.showReloadMessage": false,
+  "helium-icon-theme.folders.color": "#bd93f9",
+  "helium-icon-theme.hidesExplorerArrows": true,
+  "helium-icon-theme.folders.theme": "classic",
+  "editor.smoothScrolling": true,
+  "vim.smartRelativeLine": true,
+  "vim.statusBarColorControl": false,
+  "vim.mouseSelectionGoesIntoVisualMode": false,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "codeium.enableCommandSideHintEducation": false,
+  "codeium.enableInComments": false,
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, \"Hack Nerd Font Mono\"",
+  "vscode_custom_css.imports": [
+    "file://[path to your css file]"
+  ],
+  "vscode_custom_css.statusbar": false,
+  "diffEditor.hideUnchangedRegions.enabled": true
+}
