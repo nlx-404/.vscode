@@ -1,0 +1,68 @@
+.monaco-workbench
+  .part.statusbar
+  > .items-container
+  > .statusbar-item
+  > .statusbar-item-label {
+  background-color: #bc92f8;
+  color: #282a36;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 13px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.monaco-workbench
+  .part.statusbar
+  > .items-container
+  > .statusbar-item.left.first-visible-item {
+  padding-left: 0px !important;
+}
+
+a.action-label.codicon.codicon-toolbar-more {
+  display: none !important;
+}
+
+.quick-input-widget {
+  transform: translateY(-35%) !important;
+  top: 35% !important;
+  border: 1px solid #e5e5e5 !important;
+}
+
+.statusbar-item-label[aria-label="No Problems"] {
+  background-color: #21222c !important;
+  color: #e5e5e5 !important;
+}
+
+.monaco-workbench .part.statusbar > .items-container > .statusbar-item {
+  background-color: #21222c !important;
+}
+
+[role="button"][aria-label="-- NORMAL --"] {
+  margin-left: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+[role="button"][aria-label="-- INSERT --"] {
+  margin-left: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+[role="button"][aria-label="-- VISUAL LINE --"] {
+  margin-left: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+[role="button"][aria-label="-- VISUAL --"] {
+  margin-left: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+[aria-label^="Ln"] {
+  /*background-color: #21222C !important;*/
+  color: #e5e5e5 !important;
+  background-color: #535c90 !important;
+}
