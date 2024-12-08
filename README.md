@@ -1,4 +1,8 @@
 ## My new setup using custom css and js extension looks like this:
+- Changed command palette
+- Changed status bar
+- Added dashboard
+  
 ![Picture of my new updated setup](code-setup.jpg)
 
 ## My old vscode setup that requires no custom css extension: 
