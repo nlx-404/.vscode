@@ -2,6 +2,7 @@
 - Changed command palette
 - Changed status bar
 - Added dashboard
+- Removed a few more extra icons 
   
 ![Picture of my new updated setup](code-setup.jpg)
 
