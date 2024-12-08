@@ -24,8 +24,7 @@ a.action-label.codicon.codicon-toolbar-more {
 }
 
 .quick-input-widget {
-  transform: translateY(-35%) !important;
-  top: 35% !important;
+  top: 30vh !important;
   border: 1px solid #e5e5e5 !important;
 }
 
