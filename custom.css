@@ -101,3 +101,7 @@ a.action-label.codicon.codicon-toolbar-more {
   --tab-border-top-color: none !important;
   border-radius: 5px !important;
 }
+
+.monaco-editor .scroll-decoration {
+  box-shadow: none !important;
+}
