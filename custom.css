@@ -47,19 +47,30 @@ a.action-label.codicon.codicon-toolbar-more {
   margin-left: 0 !important;
   border-top-left-radius: 2px !important;
   border-bottom-left-radius: 2px !important;
+  background-color: #84f688 !important;
 }
 
 [role="button"][aria-label="-- VISUAL LINE --"] {
   margin-left: 0 !important;
   border-top-left-radius: 2px !important;
   border-bottom-left-radius: 2px !important;
+  background-color: #f2f999 !important;
 }
 
 [role="button"][aria-label="-- VISUAL --"] {
   margin-left: 0 !important;
   border-top-left-radius: 2px !important;
   border-bottom-left-radius: 2px !important;
+  background-color: #f2f999 !important;
 }
+
+[role="button"][aria-label="-- REPLACE --"] {
+  margin-left: 0 !important;
+  border-top-left-radius: 2px !important;
+  border-bottom-left-radius: 2px !important;
+  background-color: #eb625c !important;
+}
+
 [aria-label^="Ln"] {
   /*background-color: #21222C !important;*/
   color: #e5e5e5 !important;
@@ -84,4 +95,9 @@ a.action-label.codicon.codicon-toolbar-more {
 
 .editor-group-watermark {
   max-height: 75vh !important;
+}
+
+.tab.tab-actions-right.sizing-fit.has-icon.active.selected.tab-border-top {
+  --tab-border-top-color: none !important;
+  border-radius: 5px !important;
 }
