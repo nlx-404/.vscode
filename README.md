@@ -6,9 +6,18 @@
 - Added colour changes for the vim extension
 - Removed a few more extra icons 
   
-![Picture of my new updated setup](code-setup.jpg)
+![Picture of my new updated setup](vscode-normal.jpg)
+
+### Insert mode
+![Picture of vscode in insert mode using vim extension](vscode-insert.jpg)
+
+### Visual mode
+![Picture of vscode in visual mode using vim extension](vscode-visual.jpg)
+
+### Replace mode
+![Picture of vscode in replace mode using vim extension](vscode-replace.jpg)
 
 ## My old vscode setup that requires no custom css extension: 
-![Picture of my setup](vscode.setup.jpg)
+![Picture of my setup](assets/vscode.setup.jpg)
 
 
