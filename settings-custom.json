@@ -2,14 +2,14 @@
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#282A35",
     "titleBar.inactiveBackground": "#282A35",
-    "editorGroupHeader.tabsBackground": "#16171C",
+    "editorGroupHeader.tabsBackground": "#21222B",
     "editorGroupHeader.noTabsBackground": "#282A35",
-    "tab.inactiveBackground": "#1E1F28",
+    "tab.inactiveBackground": "#21222B",
     "editorCursor.foreground": "#FFFFFF",
     "statusBar.background": "#21222B"
   },
   "window.zoomLevel": 1,
-  "workbench.editor.showTabs": "single",
+  // "workbench.editor.showTabs": "single",
   "editor.stickyScroll.enabled": false,
   "vsicons.presets.hideExplorerArrows": true,
   "scm.diffDecorations": "none",
@@ -162,8 +162,9 @@
   "codeium.enableInComments": false,
   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, \"Hack Nerd Font Mono\"",
   "vscode_custom_css.imports": [
-    "file://[path to your css file]"
+    "file:///Users/athen/Documents/Programming/vscode/custom.css"
   ],
   "vscode_custom_css.statusbar": false,
-  "diffEditor.hideUnchangedRegions.enabled": true
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "breadcrumbs.enabled": false
 }
