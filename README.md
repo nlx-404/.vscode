@@ -3,6 +3,7 @@
 - Changed status bar
 - Added dashboard
 - Removed highlight from active tab and rounded them a bit
+- Made tab and explorer title bars smaller to allow for more coding space
 - Added colour changes for the vim extension
 - Removed a few more extra icons 
   
