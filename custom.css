@@ -105,3 +105,39 @@ a.action-label.codicon.codicon-toolbar-more {
 .monaco-editor .scroll-decoration {
   box-shadow: none !important;
 }
+
+div.title.tabs.show-file-icons {
+  --editor-group-tab-height: 30px !important;
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab
+  .tab-label
+  .label-name,
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .title-label
+  .label-name {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.monaco-workbench .part.sidebar > .title {
+  height: 30px !important;
+}
+
+.monaco-workbench .part.sidebar > .title > .title-label h2 {
+  font-weight: 500 !important;
+}
+
+canvas.decorationsOverviewRuler {
+  top: -2px !important;
+}
