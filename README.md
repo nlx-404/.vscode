@@ -1,3 +1,16 @@
+# Vscode Advanced Tweaks
+
+## Installation
+To install the new version:
+- First, make sure to install the custom css and js loader in vscode. Follow the instructions on the extension to make it work
+- Second, copy and paste the contents of `custom-settings.json` into your `settings.json` in vscode. Replace the file path with the path to your custom css file
+- Third, download or copy the contents of `custom.css` into the custom css file linked into the path in `settings.json`
+- Reload custom css and js loader extension
+
+To use the old version:
+- Copy and paste the contents of `settings.json` into your `settings.json` file in vscode
+
+
 ## My new setup using custom css and js extension looks like this:
 - Changed command palette
 - Changed status bar
