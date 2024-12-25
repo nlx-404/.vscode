@@ -2,7 +2,7 @@
 
 ## 💻 Installation
 To install the new version:
-- First, install the extensions: `Custom CSS and JS Loader`, `Dracula Official Theme`, and `Helium Icon Theme`. Activate the Dracula theme and apply Helium Icons for the explorer.. Follow the instructions on the custom css and js loader extension to make it work
+- First, install the extensions: `Custom CSS and JS Loader`, `Dracula Official Theme`, and `Helium Icon Theme`. Activate the Dracula theme and apply Helium Icons for the explorer. Follow the instructions on the custom css and js loader extension to make it work
 - Second, copy and paste the contents of `settings-custom.json` into your `settings.json` in vscode. Replace the file path with the path to your custom css file
 - Third, download or copy the contents of `custom.css` into the custom css file linked into the path in `settings.json`
 - Reload custom css and js loader extension
