@@ -11,7 +11,7 @@ To use the old version:
 - Copy and paste the contents of `settings.json` into your `settings.json` file in vscode
 
 
-## 🎨 My new setup using custom css and js extension looks like this:
+## 🎨 My setup using custom css and js extension looks like this:
 - Changed command palette
 - Changed status bar
 - Added dashboard
@@ -20,7 +20,14 @@ To use the old version:
 - Added colour changes for the vim extension
 - Removed a few more extra icons 
   
-![Picture of my new updated setup](assets/vscode-normal.jpg)
+![Picture of my setup](assets/vscode-normal.jpg)
+
+## New Version 2
+- Different status bar similar to Neovims one
+- Made tab heights smaller and changed font style
+
+![Picture of my new updated setup](assets/vscode-version2.jpg)
+
 
 ### Insert mode
 ![Picture of vscode in insert mode using vim extension](assets/vscode-insert.jpg)
