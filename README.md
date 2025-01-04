@@ -25,6 +25,7 @@ To use the old version:
 ## New Version 2
 - Different status bar similar to Neovims one
 - Made tab heights smaller and changed font style
+- Uses `settings-custom2.json`
 
 ![Picture of my new updated setup](assets/vscode-version2.jpg)
 
